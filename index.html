@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Fan's Website</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu|Merriweather" rel="stylesheet">
+
+  <!-- CSS Stylesheets -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="favicon.ico">
+  <!-- Font Awesome -->
+  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+  <!-- Bootstrap Scripts -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+  <section class="colored-section" id="title">
+
+    <div class="container-fluid">
+
+      <!-- Nav Bar -->
+
+      <nav class="navbar navbar-expand-lg navbar-dark";>
+
+        <a class="navbar-brand" href="" style="color: #0F5077">Hello</a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#about-me" style="color: #0F5077">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#my-projects" style="color: #0F5077">My Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#footer" style="color: #0F5077">Contact</a>
+            </li>
+
+
+          </ul>
+
+        </div>
+      </nav>
+
+
+
+      <!-- Title -->
+
+      <div class="row">
+
+        <div class="col-lg-6">
+          <h1 class="big-heading">I'm Fan. Nice to meet you😊</h1>
+          <a href="https://docs.google.com/document/d/1hT7H1lhcu8xPx2-rDGm6IDnKI2OAN50-c0tUkQSIbT8/edit?usp=sharing" class="btn btn-warning btn-lg profile-button" role="button"><i class="fas fa-file"></i> Resume</a>
+        <a href="https://www.linkedin.com/in/fan-zhang-208767146/" class="btn btn-primary btn-lg profile-button" role="button"><i class="fab fa-linkedin"></i> LinkedIn</a>
+
+        </div>
+
+        <div class="col-lg-6">
+          <img class="title-image" src="images/fan.png" alt="profile-photo">
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- about-me -->
+
+  <section class="white-section" id="about-me">
+
+    <div class="container-fluid">
+
+      <div class="row">
+        <div class="feature-box col-lg-4">
+          <img class="box-img" src="images/vector1.png" alt="vector1">
+          <h3 class="feature-title">About me</h3>
+          <p>I am a data analyst and software engineer. I'm interetsed in product development and growth. I'm currently learning Golang and React. </p>
+        </div>
+
+        <div class="feature-box col-lg-4">
+          <img class="box-img" src="images/dessert.png" alt="dessert-img">
+          <h3 class="feature-title">I love food!</h3>
+          <p>Whenever I go to a new place, I will always open Yelp to see what's good to eat. My favorite food is of course hot pot and peking duck!</p>
+        </div>
+
+        <div class="feature-box col-lg-4">
+          <img class="box-img" src="images/cat.png" alt="cat-img">
+          <h3 class="feature-title">And Cats!</h3>
+          <p>I have two cats. Both are adopted from the shelter. One is named Momo and one is Fred.</p>
+        </div>
+      </div>
+
+
+    </div>
+  </section>
+
+
+  <!-- my-projects -->
+
+  <section class="colored-section" id="my-projects">
+
+    <div id="testimonial-carousel" class="carousel slide" data-ride="false">
+
+      <div class="carousel-inner">
+        <div class="carousel-item active container-fluid">
+          <h2 class="testimonial-text">A React project that allows you to make post-it!</h2>
+          <img class="testimonial-image" src="images/post_it.png" alt="project-profile">
+          <div>
+            <a href="https://github.com/atobefan/post_it_project" class="btn btn-outline-warning" role="button"><i class="fab fa-github-square"></i> Check on Github</a>
+
+          </div>
+        </div>
+        <div class="carousel-item container-fluid">
+          <h2 class="testimonial-text">An app pre-order signup page made with Node and Mailchimp api</h2>
+          <img class="testimonial-image" src="images/newsletter.png" alt="project-profile">
+          <div>
+            <a href="https://github.com/atobefan/newsletter_signup" class="btn btn-outline-warning" role="button"><i class="fab fa-github-square"></i> Check on Github</a>
+          </div>
+         </div>
+      </div>
+      <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#testimonial-carousel" role="button" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
+
+  </section>
+
+
+
+
+  <!-- Footer -->
+
+  <footer class="white-section" id="footer">
+
+    <a href="https://www.linkedin.com/in/fan-zhang-208767146/"><i class="fab fa-linkedin fa-lg social-icon"></i></a>
+    <a href="https://github.com/atobefan/atobefan"><i class="fab fa-github-square fa-lg social-icon"></i></a>
+    <a href="mailto:fanzhang@berkeley.edu"><i class="fas fa-envelope fa-lg social-icon"></i></a>
+
+
+  </footer>
+
+
+</body>
+
+</html>

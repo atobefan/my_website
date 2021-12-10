@@ -1,0 +1,150 @@
+
+body {
+  font-family: "Ubuntu";
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Merriweather";
+}
+
+p {
+  color: #0F5077;
+}
+
+/* Headings */
+
+.big-heading {
+  font-family: "Merriweather";
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Containers */
+
+.container-fluid{
+  padding: 7% 15%;
+}
+
+/* Sections */
+
+.colored-section {
+  background-color:#FFFEB0;
+
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+/* Navigation Bar */
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1rem;
+  font-family: "Merriweather";
+}
+
+/* Buttons */
+
+.profile-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Section */
+
+#title {
+  background-color: #FFFEB0;
+  color: #0F5077;
+  text-align: left;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/* Title Image */
+
+.title-image {
+  width: 70%;
+  position: absolute;
+  right: 10%;
+}
+
+/* Features Section */
+
+#about-me {
+  position: relative;
+}
+
+.feature-title {
+  color: #BA0452;
+  font-size: 1.5rem;
+
+}
+
+.feature-box {
+  padding: 4.5%;
+}
+
+.box-img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-bottom: 1rem;
+  }
+
+
+
+/* my-projects Section */
+
+#my-projects {
+  background-color: #BA0452;
+  color: #FFFEB0
+
+}
+
+
+.testimonial-text {
+
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+
+  width:  500px;
+  height: 250px;
+  object-fit: cover;
+  margin: 20px;
+}
+
+
+
+/* Footer Section */
+#footers {
+  background-color: white;
+}
+
+.social-icon {
+  color: #0F5077;
+  margin: 20px 10px;
+}
